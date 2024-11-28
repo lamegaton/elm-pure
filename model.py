@@ -7,7 +7,7 @@ def _mean_squared_error(y, pred):
 
 
 def _mean_abs_error(y, pred):
-    return np.mean(np.abs(y, pred))
+    return np.mean(np.abs(y - pred))
 
 
 def _sigmoid(x):
